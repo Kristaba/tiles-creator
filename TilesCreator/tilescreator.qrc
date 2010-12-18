@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="changeview">icons/changeview.png</file>
+        <file alias="close">icons/close.png</file>
+        <file alias="copy">icons/copy.png</file>
+        <file alias="cut">icons/cut.png</file>
+        <file alias="download">icons/download.png</file>
+        <file alias="english">icons/english.png</file>
+        <file alias="france">icons/france.png</file>
+        <file alias="germany">icons/germany.png</file>
+        <file alias="help">icons/help.png</file>
+        <file alias="info">icons/info.png</file>
+        <file alias="langage">icons/langage.png</file>
+        <file alias="new">icons/new.png</file>
+        <file alias="open">icons/open.png</file>
+        <file alias="options">icons/options.png</file>
+        <file alias="paste">icons/paste.png</file>
+        <file alias="portugal">icons/portugal.png</file>
+        <file alias="quit">icons/quit.png</file>
+        <file alias="receive">icons/receive.png</file>
+        <file alias="recent">icons/recent.png</file>
+        <file alias="report">icons/report.png</file>
+        <file alias="send">icons/send.png</file>
+        <file alias="add">icons/add.png</file>
+        <file alias="back">icons/back.png</file>
+        <file alias="page-add">icons/page-add.png</file>
+        <file alias="remove">icons/remove.png</file>
+        <file alias="next">icons/next.png</file>
+    </qresource>
+    <qresource prefix="/trans">
+        <file alias="tc_en.qm">tilescreator_en.qm</file>
+        <file>qt_fr.qm</file>
+    </qresource>
+    <qresource prefix="/lib"/>
+</RCC>

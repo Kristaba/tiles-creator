@@ -1,0 +1,98 @@
+??/05/2010 :
+Version 1.20 :
+
+*G85SDKExport : support de l'export assembleur pour GCC.
+
+*Dans l'éditeur de tiles, lors d'un clic maintenu suivi d'un déplacement de la souris, les pixels modifiés sont désormais tous liés entre eux par une ligne.
+
+*Dans l'éditeur de maps, lors d'un clic maintenu suivi d'un déplacement de la souris, les cases modifiées sont désormais toutes liées entre elles par une ligne du tile utilisé.
+
+*
+
+--------------------------------------
+
+
+31/01/2010 :
+Version 1.10b :
+
+*Correction de plusieurs petits bugs divers.
+
+*Ajout du support de la traduction dynamique du programme.
+
+*Traduction en Anglais du programme principal.
+
+*Refonte complète de l'éditeur de tileset afin de permettre une évolution.
+
+*Début de la possibilité d'export des données : Tiles Creator est maintenant capable de créer un fichier à inclure dans un projet utilisant le SDK G85 contenant le informations graphiques des tiles, tilesets et maps du projet ainsi qu'un ensemble de fonctions permettant de les utiliser simplement et efficacement.
+
+*Ajout d'un début de gestion des "propriétés" des tiles avec un support de la propriété "BLOCKING".
+
+*Création d'une base de plugin permettant de créer des plugins d'export des données de façon très simple, et ajout du support des plugins d'export.
+
+*La fonction d'export pour Graph 85 SDK est désormais contenu dans un plugin d'export.
+
+*Début d'une documentation Doxygen à grande echelle...
+
+*Création d'une base de plugin d'import et ajout du support des plugins d'import.
+
+*Création d'un plugin complet d'import d'images (permet d'importer des tiles, des ensembles de tiles et des maps).
+
+*Correction d'un bug qui empêchait parfois d'accéder à certains menus.
+
+*Lors d'un "Enregistrer..." après un "Enregistrer sous", la sauvegarde est maintenant enrgistrée à l'emplacement logique de celle-ci.
+
+*Correction d'un bug qui faisait crasher le programme lors de la supression d'un tileset alors qu'aucune map n'était ouverte.
+
+*La création d'un nouveau tileset ne met plus les propriétés à une valeur aléatoire.
+
+*La fenêtre de selection de tile dans un tileset se positionne de façon plus intéligente afin de ne pas déborder de l'écran.
+
+*L'éditeur de tileset a désormais une barre de déroulement verticale afin d'empêcher de ne pas pouvoir accéder à certains tiles.
+
+*Tiles Creator est désormais sous license GNU GPL!
+
+*Création d'un fichier contenant certaines constantes globales et Tiles Creator tel que des couleurs, afin d'éviter des incohérences d'inclusion et de faciliter leur utilisation dans des plugins.
+
+*Plugin d'export pour G85 : un mode d'export des tiles permettant d'obtenir un fichier contenant uniquement les définitions des bitmaps a été ajouté.
+
+--------------------------------------
+
+
+4/10/2009 :
+Version 1.01b :
+
+*Ajout d'un système "intelligent" de Sauvegarde de projet ("Enregistrer" sauvegarde désormais le fichier sous le nom duquel on l'a ouvert si il a été ouvert depuis un fichier ; "Enregistrer sous" ouvre dans tous les cas une boîte de dialogue).
+
+*Modification de la gestion des mises à jours. Désormais le programme vérifie les mises à jour lors de l'ouverture du WebDownloader et propose ensuite à l'utilisateur de les télécharger si il y en a.
+
+*Bugfix #1 : "Fichier -> Nouveau Tile" ouvre bien un nouveau tile dans le projet actuel.
+
+*Bugfix #2 : l'onglet "Tile" est désormais désactivé tant qu'aucun projet n'est ouvert.
+
+*Bugfix #3 : la création d'un nouveau tile lorsque aucun projet n'est ouvert ne provoque plus de plantage.
+
+*Légère modification de la boîte de dialogue de "Options -> Mise à jour"
+
+*Ajout de "Fichier -> Nouveau Tileset" et "Fichier -> Nouvelle Map"
+
+*Le WebDownloader peut désormais être mis à jour en lançant TilesCreator après le téléchargement des dernières mises à jour.
+
+*La touche Suppr permet désormais de suprimmer les items sélectionnés de l'arborésence.
+
+*Il est maintenant possible de suprimmer les tileset et les maps.
+
+*Bugfix #4 : correction d'un bug qui survenait parfois à l'enregistrement d'une map.
+
+*Bugfix #5 : la modification puis la sauvegarde d'un tileset modifie maintenant la map actuellement ouverte si celle-ci utilise le tileset en question.
+
+*Bugfix #6 : la supression ou la création d'un tileset est désormais répercutée sur la map en cours d'édition.
+
+*On peut maintenant appliquer un même tile sur plusieurs cases d'une map en cliquant puis en déplaçant le souris sur les cases voulues.
+
+*Début de gestion persistante des paramètres : la taille de la fenêtre et sa position sont maintenant enregistrés dans un fichier de configuration.
+
+--------------------------------------
+
+
+30/09/2009 :
+Version 1.00b - première release.

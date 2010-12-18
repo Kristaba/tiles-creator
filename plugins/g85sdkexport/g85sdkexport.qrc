@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/lib">
+        <file>libtc.h</file>
+        <file>libtc.c</file>
+        <file>tile.s</file>
+        <file>tileset.s</file>
+        <file>map.s</file>
+    </qresource>
+</RCC>
